@@ -1,6 +1,6 @@
 ## Setup
 
-git clone <repo>
+git clone https://github.com/yw-blp/statespaces-prototype.git
 cd statespaces-prototype
 
 # Virtual Environment
