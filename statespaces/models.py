@@ -54,7 +54,7 @@ class Venue(models.Model):
     fully_booked = models.BooleanField(default=False)
     building_id = models.ForeignKey(
         Building,
-        on_delete=models.SET_NULL,
+        on_delete=models.CASCADE,
         null=False,
         related_name='venues'
     )
